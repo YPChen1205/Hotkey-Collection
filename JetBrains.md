@@ -8,14 +8,16 @@
     | Reformat code             |  格式化代码   |  Ctrl + Alt + L         
     | Smart type                |  补全代码     |  Ctrl + Shift + Enter    
     | Correcting error          |  修正代码     |  Alt + Enter             
-    | Select code               |  代码选中     |  Shift + 光标跳转            
+    | Select code               |  代码选中     |  Shift + Click     
+    | Undo                      |  反撤销       |  Ctril + Shift + Z        
 2. General 通用设置
 
     | | | | 
     | :--- | :---| :---| 
-    |  Open the setting       |  打开设置页面 |  Ctrl + Alt + S   | 
-    |  Open tool windows      |  万能命令     |  Ctrl + Shift + A | 
-
+    |  Open the setting       |  打开设置页面    |  Ctrl + Alt + S    
+    |  Open tool windows      |  万能命令        |  Ctrl + Shift + A  
+    |  Open recent files      |  最近编辑文件列表 | Shift + Shift
+    
 2. Look up 查看
 
     | | | | 
@@ -26,15 +28,13 @@
     | API document                     |   查看api文档                   |         Shift + F1  
     | Class Methods                    |   查看类的方法                  |         Ctrl + F12  
     | Inherent                         |   查看类的继承关系               |         Ctrl + H  
-    | Variables assignment             |   查看变量的赋值情况             |          Shift + Ctrl + A: Enter analyze data flow to Here 
-    | Bracket position                 |   可以定位方法体的括号           |          Ctrl + {}  
-    | Select content                   |   查看选中的内容                |           F3  
-    | Reverse the selection content    |   反向查看内容：                |           Shift + F3  
-    | Implementation(s)                |   查询那些类实现了光标所在的接口  |          Ctrl + Alt + B  
-    | Super class                      |   查看父类                      |           Ctrl + U  
-    | Last edited file list            |   最近编辑的文件列表             |           Ctrl + E  
-    | Layout and corresponding classes |   查看布局与对应的类             |           Ctrl + Alt + Home  
-    | Where current methods is called  |   查看当前方法在那里进行调用      |          Ctrl + Alt + H  
+    | Variables assignment             |   查看变量的赋值情况             |         Shift + Ctrl + A: Enter analyze data flow to Here 
+    | Bracket position                 |   可以定位方法体的括号           |         Ctrl + {}  
+    | Implementation(s)                |   查询那些类实现了光标所在的接口  |         Ctrl + Alt + B  
+    | Super class                      |   查看父类                      |          Ctrl + U  
+    | Last edited file list            |   最近编辑的文件列表             |          Ctrl + E  
+    | Layout and corresponding classes |   查看布局与对应的类             |          Ctrl + Alt + Home  
+    | Where current methods is called  |   查看当前方法在那里进行调用      |         Ctrl + Alt + H  
 
 3.  Caret Position 光标跳转  
 
@@ -75,7 +75,12 @@
     | Delete to Word Start | 删除到字符开始     |           Ctrl + Backspace
     | Delete current line  | 删除当前行         |           Ctrl + Y
     | Delete to line End   | 删除本行末尾换行符  |           Ctrl + shift + J 
+    
+6.  Select 选中
 
+    | | | | 
+    | :---| :---| :---|
+    |Select the content from the caret to the same postion of previous/next line |选中从光标开始到上一行或下一个相同位置的内容|Shift + ↑ / ↓ 
 6.  Move Statement 移动 
 
     | | | | 
@@ -108,7 +113,6 @@
     | Move to Edit window       | 从其他窗口回到编辑窗口  |   Esc 	
     | Focus on the Edit window  | 焦点到编辑窗口         |  Shift + Esc 	
     | Move back the tool window | 回到先前的工具窗口     |   F12 	
-
 
 感谢[忘尘~](https://blog.csdn.net/BobYuan888/java/article/details/79885960), [小羊羊](https://yangfangs.github.io/wiki/pycharm-Shortcut-key/)，
 [PPPPPython](https://zhuanlan.zhihu.com/p/36147819)的整理
