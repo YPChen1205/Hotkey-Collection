@@ -3,13 +3,14 @@
 
     | | | | 
     | :--- | :---| :---| 
-    | Edit at multiple position |  多行编辑     |  Alt + mouse left click  
-    | Toggle case               |  大小写转换   |  Ctrl + Shift + U         
-    | Reformat code             |  格式化代码   |  Ctrl + Alt + L         
-    | Smart type                |  补全代码     |  Ctrl + Shift + Enter    
-    | Correcting error          |  修正代码     |  Alt + Enter             
-    | Select code               |  代码选中     |  Shift + Click     
-    | Undo                      |  反撤销       |  Ctril + Shift + Z        
+    | Edit at multiple positions |  多处编辑     |  Alt + Click  
+    | Toggle case                |  大小写转换   |  Ctrl + Shift + U         
+    | Reformat code              |  格式化代码   |  Ctrl + Alt + L         
+    | Smart type                 |  补全代码     |  Ctrl + Shift + Enter    
+    | Correcting error           |  修正代码     |  Alt + Enter             
+    | Select code                |  代码块选中   |  Shift + Click     
+    | Undo                       |  反撤销       |  Ctril + Shift + Z        
+    | Refactor                   |  重构重命名   |  Shift + F6
 2. General 通用设置
 
     | | | | 
@@ -24,8 +25,8 @@
     | :--- | :---| :---| 
     | Implementations                  |   查看方法实现的内容             |         Ctrl + Shift + I 
     | Parameters                       |   查看参数                      |         Ctrl + P  
-    | Document description             |   查看文档描述                  |         Ctrl + Q  
-    | API document                     |   查看api文档                   |         Shift + F1  
+    | `Document description `          |   `查看文档描述`                  |         Ctrl + Q  
+    | `API document`                   |   `查看api文档`                  |         Shift + F1  
     | Class Methods                    |   查看类的方法                  |         Ctrl + F12  
     | Inherent                         |   查看类的继承关系               |         Ctrl + H  
     | Variables assignment             |   查看变量的赋值情况             |         Shift + Ctrl + A: Enter analyze data flow to Here 
@@ -80,13 +81,15 @@
 
     | | | | 
     | :---| :---| :---|
-    |Select the content from the caret to the same postion of previous/next line |选中从光标开始到上一行或下一个相同位置的内容|Shift + ↑ / ↓ 
+    | Select the content from the caret to the same postion of previous/next line |选中从光标开始到上一行或下一个相同位置的内容|Shift + ↑ / ↓ 
+    | Select the word | 选中光标所在的单词 | Ctrl + W
+    
 6.  Move Statement 移动 
 
     | | | | 
     | :---| :---| :---| 
     | Move the selected code   | 移动选中代码移动   |  Alt + Shift + ↑ / ↓ 
-    | Move the whole functions | 可以移动当前方法体, 如果移动一行代码只能在代码体内移动 |  ctrl + shift + ↑ / ↓ 
+    | Move the whole functions | 移动当前方法体, 如果移动一行代码只能在代码体内移动 |  ctrl + shift + ↑ / ↓ 
     
 7.  Find and Replace 查找和替换
     
