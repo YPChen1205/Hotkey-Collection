@@ -11,6 +11,8 @@
     | Select code                |  代码块选中   |  Shift + Click     
     | Undo                       |  反撤销       |  Ctril + Shift + Z        
     | Refactor                   |  重构重命名   |  Shift + F6
+    | Mark TODO                  |  标记TODO     |  # + TODO: description
+
 2. General 通用设置
 
     | | | | 
@@ -25,8 +27,8 @@
     | :--- | :---| :---| 
     | Implementations                  |   查看方法实现的内容             |         Ctrl + Shift + I 
     | Parameters                       |   查看参数                      |         Ctrl + P  
-    | `Document description `          |   `查看文档描述`                  |         Ctrl + Q  
-    | `API document`                   |   `查看api文档`                  |         Shift + F1  
+    | **Document description**         |   **查看文档描述**               |         Ctrl + Q  
+    | **API document**                 |   **查看api文档**                |         Shift + F1  
     | Class Methods                    |   查看类的方法                  |         Ctrl + F12  
     | Inherent                         |   查看类的继承关系               |         Ctrl + H  
     | Variables assignment             |   查看变量的赋值情况             |         Shift + Ctrl + A: Enter analyze data flow to Here 
@@ -51,7 +53,7 @@
     | Start of current word    | 当前单词末尾 |           Ctrl + →    
     | Keep the caret positon, enter a new line | 当光标在代码中间,回车到下一行  |           Shift + Enter   
     | Keep the caret position but change to next line | 当一行代码太长时, 切换到下一行，但光标不变 |  Ctrl + Enter   
-    | Go to line #                      | 跳转到第几行                         |           Ctrl + G   
+    | Go to line                        | 跳转到第几行                         |           Ctrl + G   
     | Last edit position                | 跳转到最近编辑的代码位置              |           Ctrl + Shift + Backspace   
     | Go to Declaration                 | 跳到申明 (如跳转到当前函数声明的地方） |           Ctrl + B or Ctrl + Click   
     | Go to Implementation(s)           | 与上面相反(跳到执行位置)              |           Ctrl + Alt + B   
@@ -117,5 +119,5 @@
     | Focus on the Edit window  | 焦点到编辑窗口         |  Shift + Esc 	
     | Move back the tool window | 回到先前的工具窗口     |   F12 	
 
-感谢[忘尘~](https://blog.csdn.net/BobYuan888/java/article/details/79885960), [小羊羊](https://yangfangs.github.io/wiki/pycharm-Shortcut-key/)，
-[PPPPPython](https://zhuanlan.zhihu.com/p/36147819)的整理
+参考了[忘尘~](https://blog.csdn.net/BobYuan888/java/article/details/79885960)、[小羊羊](https://yangfangs.github.io/wiki/pycharm-Shortcut-key/) 和
+[PPPPPython](https://zhuanlan.zhihu.com/p/36147819) 编辑的相关内容
